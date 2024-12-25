@@ -115,7 +115,7 @@ while true; do
             else
                 print_green "Using node_modules from current directory"
             fi
-            node bot
+            cd walrus && node bot
             read -p "Press Enter to continue..."
             ;;
         4)
