@@ -1,5 +1,5 @@
 @echo off
-title name Bot
+title Walrus Testnet Bot
 color 0A
 
 cd ..
@@ -13,9 +13,9 @@ if exist node_modules (
 
 :MENU
 cls
-echo =================================
-echo    name BOT SETUP AND RUN SCRIPT
-echo =================================
+echo =================================================
+echo    Walrus Testnet BOT SETUP AND RUN SCRIPT
+echo =================================================
 echo.
 echo Current directory: %CD%
 echo Parent node_modules: %~dp0..\node_modules
@@ -97,7 +97,7 @@ if exist "..\node_modules" (
 ) else (
     echo Using node_modules from current directory
 )
-node bot
+cd walrus && node bot
 pause
 goto MENU
 
