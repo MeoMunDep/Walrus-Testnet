@@ -54,9 +54,9 @@ check_configs() {
 
 while true; do
     clear
-    echo "================================="
-    echo "    name BOT SETUP AND RUN SCRIPT"
-    echo "================================="
+    echo "================================================"
+    echo "    Walrus BOT SETUP AND RUN SCRIPT"
+    echo "================================================"
     echo
     echo "Current directory: $(pwd)"
     echo "Node modules directory: $MODULES_DIR/node_modules"
