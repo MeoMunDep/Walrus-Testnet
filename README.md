@@ -1,1 +1,1 @@
-Season 1 is ended, please choose another scripts!
+THEY DISTRIBUTED AIRDROP, SO USE ANOTHER SCRIPTS GUYS!
